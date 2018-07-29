@@ -19,15 +19,15 @@ bot.on('ready', () => {
 //Mention d'une personne
 bot.on('message', message => {
 
-    if(message.content === "aide"){
+    if(message.content === prefix + "aide"){
 
-        message.reply("Voici le message d'aide");
+        message.reply("Je ne peux pas j'ai piscine");
 
     }
 
     if(message.content === prefix + "help"){
 
-        message.channel.send("Voici les commandes");
+        message.channel.send("I can not I have pool");
         
     }
 
