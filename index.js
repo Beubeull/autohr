@@ -7,7 +7,7 @@ var bot = new Discord.Client();
 //Variable prefix
 var prefix = ('!');
 
-bot.login('NDczMTg3NTI1NjIwNjYyMjkx.Dj-RyQ.UGgnTdpSeJQilB9EkBC9gE-0c8o');
+bot.login(process.env.TOKEN);
 
 bot.on('ready', () => {
 
